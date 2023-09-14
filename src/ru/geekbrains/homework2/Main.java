@@ -8,7 +8,9 @@ public class Main {
         int[] array = ArrayUtils.prepareArray();
         System.out.println("Массив случайных чисел");
         ArrayUtils.printArray(array);
+
         System.out.println();
+
         System.out.println("Массив отсортированый методом пирамидальной сортировки (сортировка кучей)");
         HeapSort.sort(array);
         ArrayUtils.printArray(array);
